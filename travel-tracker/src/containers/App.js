@@ -7,19 +7,25 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      selectedId: null
+      selectedId: []
     }
     this.crossOut = this.crossOut.bind(this)
   }
 
   crossOut(id) {
-    this.setState( {selectedId: id})
+    // if (!this.state.selectedId.includes(id)) {
+    //   this.state.selectedId.push(id)
+    // }
+    let newSelectedId = this.state.selectedId.filter((id) => {
+      return !this.state.selectedId.includes(id)
+    })
+    this.setState( {selectedId: newSelectedId}) //the 1st selectedId is just a key that I assigned to the new state, it doesn't need to be same as it's original state's key name
   }
 
   render() {
     console.log(this.state);
     let destinations = this.props.data.places.map((destination) => {
-      let className = destination.id === this.state.selectedId ? 'selected' : null
+      let className = this.state.selectedId.includes(destination.id) ? 'selected' : null
       return(
         <Destination
           key={destination.id}
