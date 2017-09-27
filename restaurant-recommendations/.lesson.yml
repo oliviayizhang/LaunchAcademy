@@ -1,0 +1,7 @@
+---
+title: "Restaurant Recommendations"
+type: "challenge"
+description: "Create a single-page app for reviewing restaurants."
+tags: "react, react forms"
+ignore:
+- "restaurant-recommendations.md"
