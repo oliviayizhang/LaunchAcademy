@@ -3,9 +3,8 @@ import { mount } from 'enzyme' //returns React Wrapper
 import jasmineEnzyme from 'jasmine-enzyme';
 import React from 'react'
 
-
 describe('Tweet', () => {
-  let image,
+  let image, //define variables here, so they are accessible to all of the 'it' statement. Properly scope the variables
       name,
       text,
       handleClick,
@@ -19,7 +18,7 @@ describe('Tweet', () => {
         userPhoto='http://images2.fanpop.com/image/quiz/400000/400752_1271413686448_431_300.jpg'
         name='Todo'
         text="This doesn't look like Kansas"
-        handleClick={handleClick} //why not handleClick?
+        handleClick={handleClick} //can also define a variable 'onClick' instead 'handleClick', then here will be onClick={handleClick}
       />
     )
   })
@@ -41,6 +40,6 @@ describe('Tweet', () => {
   it('should invoke the onClick function from props when clicked', () => {
    wrapper.simulate('click');
    expect(handleClick).toHaveBeenCalled();
- }); //remeber the function name should be the prop's key, not Onclick in this case
+  }); //remeber the function name should be the prop's key, not Onclick in this case
 
 })

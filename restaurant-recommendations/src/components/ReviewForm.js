@@ -28,7 +28,7 @@ class ReviewForm extends React.Component {
       content: this.state.content,
       restaurant_id: this.props.selectedId //Don't forget to link id to the new state
     }
-    this.props.addReviews(formPayLoad)
+    this.setState({this.props.addReviews(formPayLoad)})
     this.setState({ //clear form
       name:'',
       rating: 20,
