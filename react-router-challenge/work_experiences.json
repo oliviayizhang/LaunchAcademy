@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "company": "Facebook",
+    "position": "Software Engineer Intern",
+    "description": "Fix bugs, contribute to software decisions, and develop features in ReactJS",
+    "start_date": "2015-07-27 08:00:00 UTC",
+    "end_date": "2016-08-15 08:00:00 UTC"
+  },
+  {
+    "id": 2,
+    "company": "Twitter",
+    "position": "Software Engineer",
+    "description": "Work on a small team developing software and solving interesting problems in Ruby on Rails",
+    "start_date": "2016-02-14 08:00:00 UTC",
+    "end_date": "2016-03-17 08:00:00 UTC"
+  },
+  {
+    "id": 3,
+    "company": "GitHub",
+    "position": "Tech Lead",
+    "description": "Lead a team building cool stuff in Ruby on Rails and JavaScript.",
+    "start_date": "2016-04-01 08:00:00 UTC",
+    "end_date": "2017-03-21 00:00:00 UTC"
+  }
+]

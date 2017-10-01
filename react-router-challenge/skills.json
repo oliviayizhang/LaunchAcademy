@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "JavaScript",
+    "proficiency": "Pretty great!"
+  },
+  {
+    "id": 2,
+    "name": "Ruby",
+    "proficiency": "Still got it!"
+  },
+  {
+    "id": 3,
+    "name": "SQL",
+    "proficiency": "Little Bobby Tables!"
+  }
+]

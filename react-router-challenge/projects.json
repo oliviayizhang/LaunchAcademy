@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Refresh",
+    "description": "When I'm walking, biking, or running, I can find the closest public water fountain with which to fill up my water bottle. Uses Ruby on Rails, React, Postgres, and the Google Maps APIs",
+    "created_at": "2017-03-21 13:53:20 UTC",
+    "updated_at": "2017-03-21 13:53:20 UTC"
+  },
+  {
+    "id": 2,
+    "name": "ihatecooking",
+    "description": "Based on whatever ingredients I already have in my fridge, the maximum time I'm willing to spend, and my mood, this app will generate easy-to-make recipes for me. Uses Ruby on Rails, React, the Meal Plantastic API, and a Raspberry Pi.",
+    "created_at": "2017-03-21 13:53:20 UTC",
+    "updated_at": "2017-03-21 13:53:20 UTC"
+  },
+  {
+    "id": 3,
+    "name": "CoffeeBuddies",
+    "description": "Matches up people new to a city, based on their interests, for conversations over coffee! People can exchange messages in real-time to determine their compatibility prior to grabbing coffee. Uses Ruby on Rails, React, and the Twilio API.",
+    "created_at": "2017-03-21 13:53:20 UTC",
+    "updated_at": "2017-03-21 13:53:20 UTC"
+  }
+]

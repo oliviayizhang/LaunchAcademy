@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "organization": "Boston Ruby Group",
+    "position": "Presenter and pizza-eater",
+    "cause": "Learning Ruby",
+    "start_date": "2015-09-14 08:00:00 UTC",
+    "end_date": "2017-03-21 00:00:00 UTC"
+  },
+  {
+    "id": 2,
+    "organization": "JavaScript Ninjas",
+    "position": "Member",
+    "cause": "Geeking out about JavaScript",
+    "start_date": "2009-02-14 08:00:00 UTC",
+    "end_date": "2017-03-21 00:00:00 UTC"
+  },
+  {
+    "id": 3,
+    "organization": "Girl Develop It",
+    "position": "ReactJS Instructor",
+    "cause": "Teaching React to fellow GDI members",
+    "start_date": "2017-05-14 08:00:00 UTC",
+    "end_date": "2017-05-21 08:00:00 UTC"
+  }
+]
